@@ -10,4 +10,4 @@ RUN apk add --no-cache ca-certificates curl \
 ENV PATH ${PATH}:/opt/mattermost-push-proxy/bin/
 
 EXPOSE 8066
-ENTRYPOINT ["push-proxy"]
+ENTRYPOINT ["mattermost-push-proxy"]
